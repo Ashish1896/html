@@ -1,0 +1,54 @@
+/* h1{ */
+     /* grid-template-columns: (2,1fr); 
+    grid-gap: 10px 30px;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-column: 1/4;
+    grid-column: 1,span2;
+    justify-content: center;
+align-items: center;
+align-self: flex-end; */
+
+
+/* } */
+.box{ height: 100px;
+    width: 400px;
+    background-color: aqua;
+    color: azure;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+ animation-name: animationa;
+  animation: animationa 3s ease-in 0s infinite   ;
+}
+
+@keyframes animationa { 0%{font-size: 20px; background-color: green;}
+50%{font-size: 40px; background-color: red;}100%{ background-color: cornflowerblue;}
+    
+}
+@media (width:400px){
+    h1{
+        background-color: yellow;
+        color: red;
+    }
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}}
+@media  (min-width:400px) {h1{
+    background-color: aquamarine;
+    color: black;
+}
+    
+}
+@media (max-width:200px) {h1{background-color: red;
+color: pink;}
+    
+}
+@media (min-width:200px) and (max-width:300px) {
+    h1{
+        background-color: pink;
+        color: gray;
+    }
+}
+    

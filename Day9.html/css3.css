@@ -1,0 +1,22 @@
+#akb{
+    background-color: azure;
+    
+}
+#ak1:nth-child(2n){
+    background-color: aqua;
+}
+h1{
+    background-color: gray;
+    color: aliceblue;
+    text-decoration: black;
+    transition: 2s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-style: dashed;
+    border-radius: 2px;
+    border-color: rebeccapurple;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: auto;
+
+}

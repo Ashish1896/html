@@ -1,0 +1,26 @@
+body{
+
+   height: 920px;
+   /* width: 100%; */
+   background-image: linear-gradient(to right top, #74164b, #782162, #782f79, #703d92, #604daa, #5163c1, #3978d4, #008de5, #00abf4, #00c8f8, #00e2f6, #5ffbf1);
+    /* background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat; */
+  
+
+}
+div{
+    background-color: yellow;
+}
+form{
+    background-color: red;
+}
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+    background-color: green;
+}

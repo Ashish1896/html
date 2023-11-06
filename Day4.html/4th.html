@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><title> loading in html</title>
+<style>
+.loader {
+  border: 16px solid green;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+ animation: spin 2s linear infinite;
+}
+div{
+width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;}
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+<body>
+<div class="loader"></div>
+<p> <marquee  behavior="scroll" direction="up">
+  <img src="C:\Users\SOA_LIB_32\Desktop\Desktop\html\rich.webp" alt="Random image" height="300px" width="300px"  ></p>
+<div></div>
+</head>
+
+</body>
+</html>

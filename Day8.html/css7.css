@@ -1,0 +1,38 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    /* border: 1px solid black; */
+    
+    
+    display: inline-block;
+}
+#td{
+    display: none;
+}
+h1{
+    border: 2px solid black;
+    width: 33.33%;
+}
+#inner{height: 300px;
+width: 300px;
+background-color: cornflowerblue;
+margin: 5px;
+margin-left: 3em;
+padding: 1em;
+}
+
+#outer{
+    height:500px;
+    width: 500px;
+    background-color: pink;
+    margin: 5em;
+}
+button{
+    font-size:50px ;
+    border-radius: 15px;
+    border-left: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}

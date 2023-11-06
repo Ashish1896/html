@@ -1,0 +1,34 @@
+h1{
+    color: pink;
+}
+#green{
+    color: aqua;
+}
+.myclass{
+    color: red;
+}
+/* div p{
+    background-color: black;
+}
+.para{
+    background-color: blue;
+}
+p{
+    background-color: green;
+} */
+div.greetdiv .greet{
+    color: green;
+}
+.greetdiv p.greet{
+    color: blue;
+}
+.greetdiv .greet{
+    color: red;
+}
+.greet{
+    color: brown;
+}
+/* <it is use to specific color without change */
+.greet{
+    color: green !important;
+}

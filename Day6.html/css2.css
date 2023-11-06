@@ -1,0 +1,19 @@
+body{
+    background-color: green;
+    text-decoration: red underline;
+}
+h1{
+    color: orange;
+
+}
+p{
+    color:white;
+    background-color: black;
+    line-height: 2.5;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+button{
+    background-color: blue;
+    color: white;
+}

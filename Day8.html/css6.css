@@ -1,0 +1,11 @@
+h1{
+    display: inline;
+    background-color: pink;
+}
+p{
+    display: block;
+    background-color: aquamarine;
+}
+span{
+    background-color: green;
+}

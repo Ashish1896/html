@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/decorative-mandala-design-with-pastel-colours_1048-5936.jpg?w=740&t=st=1696561164~exp=1696561764~hmac=95bb611c2324d873f4b52df43cee49376b55f99ac7fb45b7a4b701f15e14ac6b");
+    }
+    h1 {
+        text-transform: uppercase;
+        width:1200px;
+        padding:20px;
+        border: 5px solid green;
+        margin:0;
+        color:black;
+        }
+    h2{
+        text-align: left;
+           text-decoration: underline;
+           text-transform: uppercase;
+           text-indent: 120px;
+           letter-spacing: 5px;
+           font-family: Arial, sans-serif;
+           font-style: italic;
+           color:black;
+        }
+        u{
+         text-decoration-line: underline;
+      text-decoration: teal double underline;
+        color: gold}
+    p {
+    perspective: 600px;
+    color:black;
+    background-color:rgb(16,16,16,0.4);
+    
+    }
+    a:link {
+      color: green;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      color: red;
+    }
+    a:active {
+      color: yellow;
+    } 
+    ul{list-style-type:square;
+    font-size:20px;
+    
+    color:red}
+    ol{list-style-type:upper-roman;
+    }
