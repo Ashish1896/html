@@ -31,3 +31,13 @@ app.listen(3000,"localhost", () => {
 // 	console.log("request recived");
 // 	res.send("this is a basic response");
 // })
+
+app.ge("/:username/:id",(req,res)=>{
+    let {username,id}=req.params;
+    let htmlStr='<h1>welcome to the page of @{username}{ashishsahoo.7}<h1>'
+    res.send(htmlStr);
+});
+app.get ("search",(req,res)=>{
+    let {q}= req.query;
+    res.send(" sherch results quory ");
+});

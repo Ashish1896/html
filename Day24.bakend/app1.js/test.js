@@ -8,3 +8,6 @@ app.listen(port,()=>{
 app.use((req,res)=>{
     console.log("request,recived");
 });
+app.get("*",(req,res)=>{
+    res.send("this path does not exist");
+});
