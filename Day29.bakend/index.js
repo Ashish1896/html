@@ -5,7 +5,7 @@ const server =http.createServer((req,res)=>{
     res.setHeader("content-type","text/plain");
     res.write("hallo,world");
 });
-server.listen(3000,"localhost",()=>{
+server.listen(8080,"localhost",()=>{
     console.log("listening for requests on port 3000");
 });
 // app.use((req,res)=>{
