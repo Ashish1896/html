@@ -1,0 +1,17 @@
+*{
+    background-color: #000;
+    color: aqua;
+    text-transform: capitalize;
+}
+h1{
+    background-color: #fff;
+    text-align: center;
+    font-size: 4rem;
+}
+h1::first-letter{
+    color: #000;
+}
+img{
+    height:7rem;
+    width: 12rem;
+}

@@ -1,0 +1,17 @@
+*{
+    background-color: aliceblue;
+    color: aqua;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+h1::first-letter{
+    color: red;
+   
+}
+a{
+    color: #000;
+}
+li{
+    text-align: left;
+}

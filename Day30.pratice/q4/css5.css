@@ -1,0 +1,13 @@
+*{
+    background-color: aliceblue;
+    color: #000;
+    text-transform: capitalize;
+}
+video{
+    height: 20rem;
+    width:22rem;
+}
+mark {
+    background-color: yellow;
+    color: black;
+  }

@@ -1,0 +1,11 @@
+*{
+    background-color: aliceblue;
+    color: black;
+    text-transform: capitalize;
+}
+button{
+    background-color: rgb(175, 55, 175);
+    color: white;
+    font-size: 1rem;
+    border-color: white;
+}

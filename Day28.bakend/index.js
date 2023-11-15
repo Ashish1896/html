@@ -2,10 +2,10 @@ const express =require("express");
 const app =express();
 let port=3000;
 app.listen(port,()=>{
-    console.log("app is listening on port");
+    console.log("app is listening on port 3000");
 });
 app.get("/",(req,res)=>{
-    res.send("you contacted root path");
+    res.send("hallo, i am root path");
 });
 app.get("/apple",(req,res)=>{
     res.send("you contacted apple path");
@@ -13,8 +13,11 @@ app.get("/apple",(req,res)=>{
 app.get("/orange",(req,res)=>{
     res.send("you contacted orange path");
 });
-app.get("/mangow",(req,res)=>{
-    res.send("you contacted mangow path");
+app.get("/:username/:id",(req,res)=>{
+    let {username,id}=req.parems;
+    let htmlSte ="<h1>Welcome to bakend devlopment @${username}!</h1>"
+    // console.log(req.params);
+    // res.send("you contacted mangow path");
 });
 app.get("*",(req,res)=>{
     req.send("this path does now exist");
