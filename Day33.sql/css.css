@@ -1,0 +1,14 @@
+*{ background-color: aliceblue;
+    color: aqua;
+    text-transform: capitalize;
+    text-align: center;
+}
+h1::first-letter{
+    color: red;
+}
+p:hover{
+    background-color: blue;
+    color:#fff;
+    text-size-adjust: 1rem
+    ;
+}
